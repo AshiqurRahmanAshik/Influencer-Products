@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  background-color: rgb(255, 253, 249);
+}
 
 /* Shared Style Start */
 .poppins-bold {
@@ -16,14 +19,30 @@
 }
 .poppins-medium {
   font-family: "Poppins", serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   color: #3a3a3a;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .display-flex {
   display: flex;
 }
-
+/* 
+.border-shadow {
+  border: 2px solid #000;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+} */
+/* 5 star review */
+.fa-regular,
+.fa-star {
+  color: orange;
+  background-size: calc(100% / 5);
+}
 /* button style start */
 .preebook-now {
   background-color: #e02c6d;
@@ -33,12 +52,15 @@
   color: white;
   border: none;
   margin-top: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 /* Navbar Style Start */
 header {
   justify-content: space-around;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 a {
   text-decoration: none;
@@ -54,7 +76,7 @@ nav {
   margin: 50px;
   padding: 50px;
   max-width: 100%;
-  border: 1px solid red;
+
   justify-content: center;
   align-items: center;
 }
@@ -63,4 +85,32 @@ nav {
 }
 .main-camera {
   background-image: url(images/Circle\ design.png);
+}
+
+/* Company logo */
+.company-logo {
+  margin: 100px auto;
+  justify-content: space-evenly;
+  max-width: 80%;
+}
+
+/* cart images */
+.popular-collection {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.collection-title {
+  margin: 80px auto;
+}
+.cart-photo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 100px;
+  box-shadow: 10 px 10px 15px red;
+}
+.cart-tripod {
+  background-color: white;
 }
