@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Shared Style Start */
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  color: #3a3a3a;
+}
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #3a3a3a;
+}
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #3a3a3a;
+}
+.display-flex {
+  display: flex;
+}
+
+/* button style start */
+.preebook-now {
+  background-color: #e02c6d;
+  width: 11rem;
+  height: 3rem;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  margin-top: 25px;
+}
+/* Navbar Style Start */
+header {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+nav {
+  gap: 40px;
+  align-items: center;
+}
+
+/* Banner Style Start */
+.banner {
+  margin: 50px;
+  padding: 50px;
+  max-width: 100%;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+}
+.banner-description {
+  width: 60%;
+}
+.main-camera {
+  background-image: url(images/Circle\ design.png);
+}
